@@ -9,9 +9,6 @@ import Contact from "./Contact";
 import Host from "./Host";
 import gest from "./gest";
 // all componet is here
-//  try commit
-// we dont care about
-// we make a new brach
 function App() {
   return (
     <div className="App">
@@ -31,5 +28,3 @@ function App() {
 }
 
 export default App;
-
-//we make a new branch that it is called newbranch

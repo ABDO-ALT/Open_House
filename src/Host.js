@@ -1,6 +1,6 @@
 import React from "react";
 import "./App";
-//import Button from "./Button";
+// import Button from "./Button";
 import PostForm from "./PostForm";
 
 function Host() {
