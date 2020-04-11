@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 
 class PodtForm extends Component {
   constructor(props) {
@@ -28,25 +29,50 @@ class PodtForm extends Component {
   render() {
     const { name, email } = this.state;
     return (
-      <form onSubmit={this.submitHandler}>
-        <div>
-          <input
+      // <form onSubmit={this.submitHandler}>
+      //   <div>
+      //     <input
+      //       type="text"
+      //       name="name"
+      //       value={name}
+      //       onChange={this.changeHandler}
+      //     />
+      //   </div>
+      //   <div>
+      //     <input
+      //       type="text"
+      //       name="email"
+      //       value={email}
+      //       onChange={this.changeHandler}
+      //     />
+      //   </div>
+      //   <button type="submit">submit</button>
+      // </form>
+      <Form onSubmit={this.submitHandler} className="login-form">
+        <FormGroup>
+          <Label>Name</Label>
+          <Input
             type="text"
             name="name"
             value={name}
             onChange={this.changeHandler}
+            placeholder="Name"
           />
-        </div>
-        <div>
-          <input
-            type="text"
+        </FormGroup>
+
+        <FormGroup>
+          <Label>Email</Label>
+          <Input
+            type="emil"
             name="email"
             value={email}
             onChange={this.changeHandler}
+            placeholder="Email"
           />
-        </div>
-        <button type="submit">submit</button>
-      </form>
+        </FormGroup>
+
+        <Button className="btn-lg btn-dark btn-block">Log in</Button>
+      </Form>
     );
   }
 }

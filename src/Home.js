@@ -5,12 +5,12 @@ import "./App";
 function Home() {
   return (
     <div>
-      <h1 className="host">
-        <Link to="/Host">Host</Link>
+      <h1 className='host-for-center' >
+        <Link to="/Host"><button className="host">Host</button></Link>
       </h1>
-      <h1 className="gest">
-        {" "}
-        <Link to="/gest">guest</Link>
+      <h1 className='guest-for-center'>
+  
+        <Link to="/gest"> <button className="gest">guest</button></Link>
       </h1>
     </div>
   );

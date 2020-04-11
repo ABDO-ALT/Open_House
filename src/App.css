@@ -102,55 +102,67 @@ h3 {
   text-align: center;
 }
 a:link {
-  
   text-decoration: none;
 }
 
-
 .host {
   text-align: center;
-  background-color:#9fb5be;
-box-shadow: 0 5px 0 #9fb5be;
-color: white;
-width: 98px;
-padding: 1px 1.5px;
-position: relative;
-text-decoration: none;
-text-transform: uppercase;
+  background-color: #9fb5be;
+  box-shadow: 0 5px 0 #9fb5be;
+  height: 100%;
+  color: white;
+  width: 10%;
+  padding: 1px 1.5px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .host:hover {
-background-color: #55d6aa;
-cursor: pointer;
+  background-color: #55d6aa;
+  cursor: pointer;
 }
 
 .host:active {
-box-shadow: none;
-top: 5px;
+  box-shadow: none;
+  top: 5px;
 }
-
-
 
 .gest {
   transition-duration: 0.4s;
   text-align: center;
-  background-color:#9fb5be;
-box-shadow: 0 5px 0 #9fb5be;
-color: white;
-width: 106px;
-padding: 1px 1.5px;
-position: relative;
-text-decoration: none;
-text-transform: uppercase;
+  background-color: #9fb5be;
+  box-shadow: 0 5px 0 #9fb5be;
+  color: white;
+  width:10%;
+  height: 100% ;
+  padding: 1px 1.5px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+
 }
 
 .gest:hover {
-background-color: #55d6aa;
-cursor: pointer;
+  background-color: #55d6aa;
+  cursor: pointer;
 }
 
 .gest:active {
-box-shadow: none;
-top: 5px;
+  box-shadow: none;
+  top: 5px;
+}
+.login-form {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
 }
 
+.guest-for-center, host-for-center{
+  text-align: center;
+}
+.host-for-center{
+  text-align: center;
+}
